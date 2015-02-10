@@ -9,4 +9,4 @@ RUN yum install -y http://dev.mysql.com/get/mysql-community-release-el6-5.noarch
 
 RUN yum install -y mysql
 
-
+CMD ["/usr/bin/mysql","-h db -u root -proot"]
